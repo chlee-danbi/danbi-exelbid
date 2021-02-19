@@ -1,0 +1,12 @@
+// => module
+node_modules/*
+
+// => source
+
+// => config
+.npmignore
+
+//=> docs
+
+// => lib
+lib/*

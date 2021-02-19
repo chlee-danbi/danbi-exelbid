@@ -1,0 +1,15 @@
+{
+    "verbose": true,
+    "moduleNameMapper": {
+        "^Components/(.+)$": "<rootDir>/src/components/$1",
+        "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
+    },
+    "moduleDirectories": ["node_modules", "src"],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+    ]
+}
