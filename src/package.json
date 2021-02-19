@@ -1,6 +1,6 @@
 {
   "name": "danbi-exelbid-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "danbi exelbid JSX component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,10 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "rm -rf ./lib && tsc"
+    "build": "rm -rf ./lib && tsc",
+    "copy-files": "copyfiles -u 1 src/**/*.css lib/",
+    "prepare": "yarn build && yarn copy-files",
+    "release": "standard-version"
   },
   "keywords": [
     "danbi",
