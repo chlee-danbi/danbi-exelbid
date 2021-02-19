@@ -20,9 +20,9 @@
   ],
   "author": "ChangHun Lee",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
-  }
+  },
+  "dependencies": {}
 }
