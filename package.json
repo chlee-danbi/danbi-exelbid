@@ -1,6 +1,6 @@
 {
   "name": "danbi-exelbid-component",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "danbi exelbid JSX component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -26,8 +26,8 @@
     "component"
   ],
   "homepage": "https://github.com/chlee-danbi/danbi-exelbid#readme",
-  "url" : "https://github.com/chlee-danbi/danbi-exelbid/issues",
-  "email" : "project@hostname.com",
+  "url": "https://github.com/chlee-danbi/danbi-exelbid/issues",
+  "email": "project@hostname.com",
   "author": "ChangHun Lee",
   "license": "ISC",
   "devDependencies": {
