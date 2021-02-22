@@ -1,11 +1,8 @@
 # danbi-exelbid-component
 
-<div style="text-align:center;">
-
-![preview image](./docs/images/readme/preview.png)
-
-</div>
-
+<p align="center">
+  <img src="./docs/images/readme/preview.png">
+</p>
 
 ## Feature
 `Exelbid` 의 배너 광고 기능을 React.js 컴포넌트로 제작
