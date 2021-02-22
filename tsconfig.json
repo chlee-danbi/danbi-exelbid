@@ -19,11 +19,10 @@
     "include": [
       "./src/**/*.tsx",
       "./src/**/*.ts",
-      "./*.ts",
     ],
     "exclude": [
       "node_modules",
       "./src/**/*.spec.tsx",
-      "./src/**/*.spec.tsx.snap"
+      "./src/**/*.spec.tsx.snap",
     ]
   }
