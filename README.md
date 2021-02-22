@@ -1,7 +1,7 @@
 # danbi-exelbid-component
 
 <p align="center">
-  <img src="./docs/images/readme/preview.png">
+  <img src="https://user-images.githubusercontent.com/76930839/108671414-c12a1d80-7523-11eb-9984-3bcc2fdb738b.png">
 </p>
 
 ## Feature
