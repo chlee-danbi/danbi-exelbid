@@ -1,4 +1,4 @@
-# ExelBID
+# danbi-exelbid-component
 
 
 ## Feature
@@ -79,3 +79,5 @@ import { Exelbid } from "danbi-exelbid-component"
 ### Step 4. Fin
 
 광고 배너가 정상적으로 출력되는지 확인합니다.
+
+![preview image](./docs/images/readme/preview.png)
