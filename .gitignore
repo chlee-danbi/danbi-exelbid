@@ -7,7 +7,16 @@ src/node_modules/*
 // => config
 .npmignore
 
+
 //=> docs
+yarn-error.log
+docs/*
+tasks/*
+
 
 // => lib
 lib/*
+
+
+// => 임시
+gulpfile.ts
