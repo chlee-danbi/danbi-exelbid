@@ -9,9 +9,6 @@ src/node_modules/*
 
 //=> docs
 yarn-error.log
-docs/*
-tasks/*
-
 
 // => lib
 lib/*
@@ -19,3 +16,4 @@ lib/*
 
 // => 임시
 gulpfile.ts
+tasks/*
