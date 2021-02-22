@@ -7,7 +7,6 @@ src/node_modules/*
 // => config
 .npmignore
 
-
 //=> docs
 yarn-error.log
 docs/*
