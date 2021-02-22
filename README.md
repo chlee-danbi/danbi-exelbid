@@ -1,3 +1,11 @@
+![깃헙 레포 사용 언어 수](https://img.shields.io/github/languages/count/chlee-danbi/danbi-exelbid?style=flat&logo=language&color=green)
+![깃헙 레포 최다빈도 언어](https://img.shields.io/github/languages/top/chlee-danbi/danbi-exelbid?style=flat&logo=typescript)
+![깃헙 레포 코드 용량](https://img.shields.io/github/languages/code-size/chlee-danbi/danbi-exelbid?style=flat&logo=folder)
+![깃헙 레포 용량](https://img.shields.io/github/repo-size/chlee-danbi/danbi-exelbid)
+![깃헙 레포 라스트 커밋 날짜](https://img.shields.io/github/last-commit/chlee-danbi/danbi-exelbid?style=flat)
+![NPM License](https://img.shields.io/npm/l/danbi-exelbid-component?style=flat)
+
+
 # danbi-exelbid-component
 
 <p align="center">
