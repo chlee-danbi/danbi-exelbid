@@ -83,4 +83,6 @@ import { Exelbid } from "danbi-exelbid-component"
 
 광고 배너가 정상적으로 출력되는지 확인합니다.
 
-![preview image](./docs/images/readme/preview.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76930839/108671414-c12a1d80-7523-11eb-9984-3bcc2fdb738b.png">
+</p>
