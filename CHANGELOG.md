@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/chlee-danbi/danbi-exelbid/compare/v1.1.0...v1.1.1) (2021-02-22)
+
+
+### Bug Fixes
+
+* **script:** 명령어 스크립트 수정 ([57a5a6c](https://github.com/chlee-danbi/danbi-exelbid/commit/57a5a6cd3e5e54dc69d1b57b8fccdfbb4c5a93c4))
+
 ## [1.1.0](https://github.com/chlee-danbi/danbi-exelbid/compare/v1.0.6...v1.1.0) (2021-02-22)
 
 
