@@ -1,11 +1,11 @@
 # ExelBID
-> 해당 문서는 2021-02-17 18:29 에 작성되었습니다.
 
 
 ## Feature
+`Exelbid` 의 배너 광고 기능을 React.js 컴포넌트로 제작
 
 ## Arguments
-> `adPosition` 을 제외한 데이터는 `ExelBID Admin` 에서 확인 할 수 있습니다. 
+`adPosition` 을 제외한 데이터는 `ExelBID Admin` 에서 확인 할 수 있습니다. 
 
 ### Required
 | property name | value type  | description               | sample |
@@ -21,14 +21,14 @@
 ### Function Prototype
 
 ```typescript
-function Exelbid(props: exelbidType) { . . . }
+Exelbid(props: exelbidType):JSX.Element
 ```
 ### Component Prototype
-> All Props Data is Fake
+
 ```jsx
 <Exelbid
-    width="320"
-    height="100"
+    width="danbi-test-width"
+    height="danbi-test-height"
     adUnitCode="danbi-test-code"
     adPosition="danbi-test-position"
 />
@@ -36,30 +36,46 @@ function Exelbid(props: exelbidType) { . . . }
 
 ## Usage
 
+
+### Step 0. Install `danbi-exelbid-component` module
+
+```cmd
+`npm` 에서 `danbi-exelbid-component` 모듈을 다운로드 받습니다.
+```
+
 ### Step 1. Import Module
 
+`danbi-exelbid-component` 에서 `Exelbid` 컴포넌트를 import 시킵니다.
+
 ```tsx
-import Exelbid from "Danbi-Exelbid"     // => Step 1.
+import { Exelbid } from "danbi-exelbid-component"       // => Step 1.
 ```
 
 ### Step 2. Make Component Using `Danbi-Exelbid`
 
+`Exelbid` 컴포넌트를 원하는 position 에 생성합니다.
+
 ```tsx
-import Exelbid from "Danbi-Exelbid"     // => Step 2.
+import { Exelbid } from "danbi-exelbid-component"       // => Step 2.
 
 <Exelbid/>
 ```
 
 ### Step 3. Initialize Component Arguments
-> If you don't know about argsments then [Click Here](#arguments)
+Exelbid 광고 배너 컴포넌트에 [args](#arguments)를 작성합니다.
+
 
 ```tsx {4,5,6,7}
-import Exelbid from "Danbi-Exelbid"
+import { Exelbid } from "danbi-exelbid-component"
 
 <Exelbid
-    width=""                            // => Step 3.
-    height=""                           // => Step 3.
-    adUnitCode=""                       // => Step 3.
-    adPosition=""                       // => Step 3.
+    width=""                                            // => Step 3.
+    height=""                                           // => Step 3.
+    adUnitCode=""                                       // => Step 3.
+    adPosition=""                                       // => Step 3.
 />
 ```
+
+### Step 4. Fin
+
+광고 배너가 정상적으로 출력되는지 확인합니다.
