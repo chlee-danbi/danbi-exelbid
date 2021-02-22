@@ -1,6 +1,6 @@
 {
   "name": "danbi-exelbid-component",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "description": "danbi exelbid JSX component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
     "publish:minor": "npm version minor && npm publish",
     "publish:major": "npm version major && npm publish",
     "release": "standard-version",
-    "release:master":"yarn release && git push --follow-tags origin master && npm publish"
+    "release:master": "yarn release && git push --follow-tags origin master && npm publish"
   },
   "keywords": [
     "danbi",
