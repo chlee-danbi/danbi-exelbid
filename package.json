@@ -11,9 +11,9 @@
   "scripts": {
     "test": "jest",
     "clean": "rimraf lib",
-    "build": "yarn clean && tsc",
-    "copy-css-files": "copyfiles -f src/**/*.css lib/",
-    "prepare": "yarn build && yarn copy-css-files",
+    "build": "tsc",
+    "copy-css-files": "copyfiles -u 1 \"./src/**/*.css\" \"lib/src\"",
+    "prepare": "yarn jest && yarn clean && yarn build && yarn copy-css-files",
     "release": "standard-version"
   },
   "keywords": [
