@@ -1,1 +1,1 @@
-export * from "./Exelbid";
+export { default as Exelbid } from "./Exelbid";
