@@ -25,6 +25,9 @@
     "react",
     "component"
   ],
+  "homepage": "https://github.com/chlee-danbi/danbi-exelbid#readme",
+  "url" : "https://github.com/chlee-danbi/danbi-exelbid/issues",
+  "email" : "project@hostname.com",
   "author": "ChangHun Lee",
   "license": "ISC",
   "devDependencies": {
