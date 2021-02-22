@@ -17,7 +17,8 @@
     "publish:patch": "npm version patch && npm publish",
     "publish:minor": "npm version minor && npm publish",
     "publish:major": "npm version major && npm publish",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:master":"yarn release && git push --follow-tags origin master && npm publish"
   },
   "keywords": [
     "danbi",
