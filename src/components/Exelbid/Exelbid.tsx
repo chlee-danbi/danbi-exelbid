@@ -1,7 +1,6 @@
 import React from "react";
 import { PropType } from "./Types";
 import "./exelbid.lib";
-import "./exelbid.css";
 
 /**
  *
