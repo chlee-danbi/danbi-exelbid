@@ -21,6 +21,7 @@ export default function Exelbid(props: PropType) {
     exelbidtag.push(() => {
       exelbidtag.initAdBanner(adUnitCode, width, height, adContainer);
       exelbidtag.loadAd(adUnitCode);
+      exelbidtag.setIsInApp(true);
     });
   }, []);
 
