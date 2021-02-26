@@ -21,8 +21,8 @@ export default function Exelbid(props: PropType) {
     exelbidtag.push(() => {
       exelbidtag.initAdBanner(adUnitCode, width, height, adContainer);
       exelbidtag.loadAd(adUnitCode);
-      exelbidtag.setIsInApp(true);
-      exelbidtag.setIfa("9473b438-c752-4beb-ba21-80ef9353e8bc");
+      // exelbidtag.setIsInApp(true);
+      // exelbidtag.setIfa("9473b438-c752-4beb-ba21-80ef9353e8bc");
     });
   }, []);
 
