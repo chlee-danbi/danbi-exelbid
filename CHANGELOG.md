@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/chlee-danbi/danbi-exelbid/compare/v1.2.4...v1.2.5) (2021-02-26)
+
+
+### Bug Fixes
+
+* **component ad position:** 컴포넌트 고정 포지션 설정 삭제 ([565e487](https://github.com/chlee-danbi/danbi-exelbid/commit/565e487570781b5ca7d954e16cca372f06a10c19))
+
 ### [1.2.2](https://github.com/chlee-danbi/danbi-exelbid/compare/v1.2.1...v1.2.2) (2021-02-22)
 
 ## [1.2.0](https://github.com/chlee-danbi/danbi-exelbid/compare/v1.1.7...v1.2.0) (2021-02-22)
