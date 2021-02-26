@@ -12,7 +12,7 @@ import "./exelbid.css";
  * @return JSX
  */
 export default function Exelbid(props: PropType) {
-  const { width, height, adUnitCode, adPosition } = props;
+  const { width, height, adUnitCode } = props;
   const adContainer = "div-exelbid-" + adUnitCode;
 
   React.useEffect(() => {
@@ -26,5 +26,5 @@ export default function Exelbid(props: PropType) {
     });
   }, []);
 
-  return <div id={adContainer} className={adPosition} />;
+  return <div id={adContainer} />;
 }
