@@ -1,6 +1,6 @@
 {
   "name": "danbi-exelbid-component",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "danbi exelbid JSX component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
